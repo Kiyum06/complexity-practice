@@ -6,7 +6,7 @@ import java.util.Set;
 public class Main {
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(x^2)
   public static void timesTable(int x) {
     for(int i = 1; i <= x; i++) {
         for(int j = 1; j <= x; j++) {
@@ -71,6 +71,8 @@ public class Main {
 
   // Assume that the largest number is no bigger than the length
   // of the array
+  // The time complexity is:
+  // YOUR ANSWER HERE
   public static void computeAllFactorials(int[] nums) {
     for(int num : nums) {
         int result = computeFactorial(num);
